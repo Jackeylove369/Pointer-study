@@ -17,19 +17,20 @@
 
 ## 代码结构
 pointer_demo.c
+pointer_demo.c
 ├── demo1_basic() // 指针基本用法
 ├── demo2_array() // 指针与数组
-├── swap_wrong() // 错误示例：值传递（不交换）
-├── swap_right() // 正确示例：指针传递（交换）
 ├── demo3_swap() // 对比演示值传递与指针传递
+│ ├── swap_wrong() // 错误示例：值传递（不交换）
+│ └── swap_right() // 正确示例：指针传递（交换）
 ├── demo4_string() // 指针与字符串
 ├── demo5_double_pointer() // 二级指针
-├── typedef struct Node // 链表节点结构体定义
-├── printList() // 打印链表
-├── insertHead() // 头插法（使用二级指针）
-├── deleteHead() // 头删法（使用二级指针）
-├── reverseList() // 链表逆置（使用二级指针）
 ├── demo6_linked_list() // 链表完整演示
+│ ├── typedef struct Node // 链表节点结构体定义
+│ ├── printList() // 打印链表
+│ ├── insertHead() // 头插法（使用二级指针）
+│ ├── deleteHead() // 头删法（使用二级指针）
+│ └── reverseList() // 链表逆置（使用二级指针）
 └── main() // 依次调用 demo1 ~ demo6
 
 
