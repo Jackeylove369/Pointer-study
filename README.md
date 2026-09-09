@@ -16,3 +16,29 @@
 | demo6 | `demo6_linked_list()` | 链表操作（综合） | 头插法、头删法、链表逆置、二级指针传参、内存释放 |
 
 ## 代码结构
+pointer_demo.c
+├── demo1_basic() // 指针基本用法
+├── demo2_array() // 指针与数组
+├── swap_wrong() // 错误示例：值传递（不交换）
+├── swap_right() // 正确示例：指针传递（交换）
+├── demo3_swap() // 对比演示值传递与指针传递
+├── demo4_string() // 指针与字符串
+├── demo5_double_pointer() // 二级指针
+├── typedef struct Node // 链表节点结构体定义
+├── printList() // 打印链表
+├── insertHead() // 头插法（使用二级指针）
+├── deleteHead() // 头删法（使用二级指针）
+├── reverseList() // 链表逆置（使用二级指针）
+├── demo6_linked_list() // 链表完整演示
+└── main() // 依次调用 demo1 ~ demo6
+
+
+## 🔧 编译与运行
+
+### 环境要求
+- 任意 C 编译器（GCC ≥ 4.8、Clang、MSVC）
+- 支持 C99 或更高标准
+
+### 编译命令（以 GCC 为例）
+```bash
+gcc -o pointer_demo pointer_demo.c
